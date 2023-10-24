@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profa. Kelly Ribeiro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>TOP 3 MELHORES MATÉRIAS DA KELLY</h1>
+            <img src="https://media.licdn.com/dms/image/D4D03AQG-4S_s160UrA/profile-displayphoto-shrink_800_800/0/1673649279998?e=2147483647&v=beta&t=OOySmxbKlq1CmGcKnF7wUtiKeEpVrrw0jRHbWWmP1F0" alt="">
+        </div>
+        <div class="content">
+            <div class="a">
+                <div class="img1 img"></div>
+                <p>1: Spotify</p>
+            </div>
+            <div class="a">
+                <div class="img2 img"></div>
+                <p>2: Hardware</p>
+            </div>
+            <div class="a">
+                <div class="img3 img"></div>
+                <p>3: Tudo</p>
+            </div>
+        </div>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Manrope', sans-serif;
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            background-color: #0f0f0f;
+        }
+
+        .title {
+            width: 100vw;
+            height: 25%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .title img {
+            width: 100px;
+            height: 100px;
+            border-radius: 300px;
+            border: 3px #FFF solid;
+        }
+
+        .content {
+            width: 100%;
+            height: 75%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .a {
+            width: 400px;
+            height: 400px;
+            background-color: #fff;
+            border-radius: 20px;
+            color: #000;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .a p {
+            color: #000;
+            font-weight: bolder;
+            font-size: 25px;
+            }
+
+        .img {
+            width: 250px;
+            height: 250px;
+            border-radius: 300px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img1 {
+            background-image: url(assets/img/spotify.png);
+        }
+
+        .img2 {
+            background-image: url('https://www.maxieduca.com.br/blog/wp-content/uploads/2017/01/20160606151102_660_420.jpg');
+        }
+
+        .img3 {
+            background-image: url(assets/img/git.png);
+        }
+    </style>
+</body>
+</html>
